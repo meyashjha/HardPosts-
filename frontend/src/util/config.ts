@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://backend.rocede3828.workers.dev/api/v1';
