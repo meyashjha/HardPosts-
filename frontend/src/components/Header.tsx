@@ -48,8 +48,8 @@ const Header = ({title, content}:{title?:string, content?:string}) => {
             </>) : null}
 
             {window.location.pathname === '/' ? (<>
-            <Link to="/login"><button className="text-sm font-semibold text-center h-7 bg-blue-500 rounded-4xl hover:opacity-80 cursor-pointer  px-3">Login</button></Link>
-            <Link to="/signup"><button className="text-sm font-semibold text-center h-7 bg-green-500 rounded-4xl hover:opacity-80 cursor-pointer  px-3">Register</button></Link>
+            <Link to="/login"><button className="text-sm font-semibold text-center h-7 bg-blue-500 rounded-3xl hover:bg-blue-600 cursor-pointer  px-3">Login</button></Link>
+            <Link to="/signup"><button className="text-sm font-semibold text-center h-7 bg-green-500 rounded-3xl hover: bg-green-600 cursor-pointer  px-3">Register</button></Link>
             </>) : null}
 
         </div> 
